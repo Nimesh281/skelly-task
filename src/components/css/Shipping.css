@@ -1,0 +1,124 @@
+#shipping_payment_p {
+  margin-top: 30px;
+  font-size: x-large;
+  margin-left: 50px;
+}
+
+.heading {
+  display: flex;
+  flex-direction: row;
+  margin-left: 20px;
+  margin-bottom: 20px;
+  justify-content: space-between;
+}
+.left-side {
+  width: 10vw;
+  display: flex;
+  flex-direction: row;
+  position: flex-end;
+}
+
+.left-side img {
+  display: flex;
+  position: relative;
+  left: 60vw;
+  margin: 45px;
+  max-height: 40px;
+  max-width: 40px;
+  border-radius: 50%;
+  border: 0.5px rgba(13, 13, 13.5) solid;
+  justify-content: center;
+  align-items: center;
+  height: 20%;
+  width: 20%;
+}
+
+.User-information button {
+  width: 120px;
+  height: 50px;
+  margin: 10px;
+  border-radius: 50px;
+  border: 1px rgba(131, 129, 129, 0.7) solid;
+  transition-duration: 0.4s;
+  background-color: white;
+}
+.User-information button:hover {
+  background-color: #66ffcc;
+  color: rgb(255, 255, 255);
+}
+.right-side {
+  display: flex;
+  flex-direction: row;
+}
+#cart {
+  width: 30px;
+  height: 30px;
+  border-radius: 20px;
+  border: 1px rgba(131, 129, 129, 0.7) solid;
+  margin-top: 30px;
+}
+#truck {
+  width: 30px;
+  height: 30px;
+  border-radius: 20px;
+  border: 1px rgba(131, 129, 129, 0.7) solid;
+  margin-top: 30px;
+  background-color: #66ffcc;
+  color: rgb(255, 255, 255);
+  margin-left: 10px;
+  margin-right: 80px;
+  border: #66ffcc;
+}
+.right-side hr {
+  height: 2px;
+  width: 5vw;
+  margin-top: 45px;
+  color: rgb(201, 195, 188);
+}
+.user-form {
+  display: inline;
+  margin-left: 50px;
+  margin-top: 25px;
+}
+.user-form label {
+  margin-bottom: 20px;
+  margin-left:0px;
+}
+.user-form input {
+  width: 290px;
+  height: 50px;
+  margin: 10px;
+  border-radius: 50px;
+  border: 1px rgba(131, 129, 129, 0.7) solid;
+  margin-left: 20px;
+}
+.user-form select {
+  width: 290px;
+  height: 50px;
+  margin: 10px;
+  border-radius: 50px;
+  border: 1px rgba(131, 129, 129, 0.7) solid;
+  text-indent: 30px;
+  color: rgba(131, 129, 129, 0.8);
+  cursor: pointer;
+  margin-left: 20px;
+}
+.users-info {
+  margin-left: 50px;
+}
+::placeholder {
+  padding: 30px;
+}
+.User-information {
+  display: inline;
+}
+.payment {
+  display: inline;
+}
+.shipping_payment {
+  display: inline;
+}
+.middle-section {
+  display: flex;
+  flex-direction: row;
+}

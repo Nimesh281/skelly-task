@@ -1,0 +1,36 @@
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 50px;
+  align-items: center;
+}
+.left-part {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.right-part {
+  flex-direction: row;
+}
+#back {
+  width: 25px;
+  height: 30px;
+  margin-right: 15px;
+  margin-left: 30px;
+}
+.right-part button {
+  height: 50px;
+  width: 250px;
+  margin-left: 10px;
+  margin-right: 30px;
+  border-radius: 50px;
+  border: 1px rgba(59, 55, 55, 0.7) solid;
+  background-color: rgb(255, 255, 255);
+  transition-duration: 0.4s;
+}
+.right-part button:hover {
+  background-color: #66ffcc;
+  border: 1px #66ffcc solid;
+  color: white;
+}

@@ -1,0 +1,104 @@
+.payments-container {
+  display: inline;
+  margin-left: 10px;
+  width: 25%;
+}
+.payments-container p {
+  margin-top: 10px;
+  font-size: 1rem;
+  margin-bottom: 20px;
+  margin-left: 50px;
+}
+
+.payment-method {
+  margin-left: 50px;
+}
+.delivery-method {
+  margin-left: 50px;
+}
+.delivery-method p {
+  margin-top: 30px;
+  font-size: 1rem;
+  margin-bottom: 25px;
+  margin-left: 2px;
+}
+.payment-method button {
+  width: 100px;
+  height: 40px;
+  margin: 4px;
+  border-radius: 50px;
+  border: 1px rgba(131, 129, 129, 0.7) solid;
+  background-color: rgb(255, 255, 255);
+}
+.payment-method button:hover {
+  background-color: aqua;
+  color: azure;
+
+  transition: 0.5s ease-in-out;
+  background: #c6cece;
+  border:1px solid #9ff9fd;
+}
+.delivery-method button:hover {
+  background-color: aqua;
+  color: azure;
+
+  transition: 0.5s ease-in-out;
+  background: #c6cece;
+  border:1px solid #23dc36;
+  color: rgb(225, 69, 69);
+}
+.delivery-method button {
+  width: 160px;
+  height: 50px;
+  margin: 4px;
+  border-radius: 20px;
+  border: 1px rgba(131, 129, 129, 0.7) solid;
+  background-color: rgb(255, 255, 255);
+  display: inline;
+  text-align: center;
+}
+#PayPal {
+  height: 50%;
+  width: 70%;
+}
+#visa {
+  height: 45%;
+  width: 55%;
+}
+#master {
+  height: 58%;
+  width: 40%;
+}
+#maestro {
+  height: 70%;
+  width: 45%;
+}
+#discover {
+  height: 90%;
+  width: 50%;
+}
+#ideal {
+  height: 90%;
+  width: 60%;
+}
+#inpost {
+  height: 60%;
+  width: 40%;
+}
+#dpd {
+  height: 50%;
+  width: 30%;
+}
+#dhl {
+  height: 80%;
+  width: 30%;
+}
+#fedex {
+  height: 80%;
+  width: 30%;
+}
+#currency {
+  padding-left: 20px;
+  margin-bottom: 10px;
+  text-align: center;
+}
